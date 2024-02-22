@@ -45,7 +45,7 @@ const persons: Person[] = [
   }
 ];
 
-const logPerson = (user: User) => {
+const logPerson = (user: User): void => {
   console.log(`${user.name}, ${user.age}`);
 };
 
